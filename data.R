@@ -9,4 +9,5 @@ data <- rbind(data,new_row1)
 print(data)
 data <- data[-c(4),]
 print(data)
+print(summary(data))
 write.table(data,"C:\\Users\\xperi\\SMR\\data.csv",sep=",",row.names=FALSE)
