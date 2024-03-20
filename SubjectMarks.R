@@ -1,0 +1,5 @@
+subject_code <- c(201,202,203,234,245)
+student_1_marks <- c(75,60,85,90,55)
+student_2_marks <- c(95,100,60,85,70)
+plot(subject_code,student_1_marks,type = "o",xlab = "Subject Code",ylab = "Marks",col = "blue",main = "Subject vs Marks Graph of Two Students")
+lines(subject_code,student_2_marks,col = "green")
